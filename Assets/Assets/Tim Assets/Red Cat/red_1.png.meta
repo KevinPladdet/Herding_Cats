@@ -1,0 +1,1738 @@
+fileFormatVersion: 2
+guid: 1a851ca7f2876196c8b359e9a9484cde
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_idle_forward_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fc2cef9fab46248891e79ddbf5b398
+      internalID: 1293596604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_forward_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943a53c474159b144a4592ddc562b5b0
+      internalID: -1423646262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_forward_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c47a769a1326142ac6d413db6a73b6
+      internalID: 1708310189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_forward_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd759e3ce420e04eb4d4657189057fd
+      internalID: -1151267878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_forward_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55901b1bfd0d31b4c9b11b3439ade748
+      internalID: 1602737585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_forward_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650a53b9f12be45479da70a5bc705512
+      internalID: 1587987033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_forward_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfa1fd921d2cc9439535fca26d22fd8
+      internalID: 981457270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_forward_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff15e1373fc13747932d58be898e52a
+      internalID: 1870249419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_forward_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a665e8d85124b943b1664ba01ccd5ff
+      internalID: 576800756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_forward_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665586ed7a4f46449b843142bbb21307
+      internalID: 487641319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_forward_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e57c6a8b8cc184ea0c322d16405907
+      internalID: -1215918614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_forward_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9166c507c7ce4594fa3e4a95de341205
+      internalID: -1262043089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_forward_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f23351ab125a1479e36d3c8e50f07e
+      internalID: 1578555928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_forward_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e7c461c3e854c41b8330a6e43b88ff
+      internalID: -1278498334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_forward_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ea0be85f7c2e5469be17128ff12f7d
+      internalID: -189323928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_forward_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f08e1847175aa4987a0262398ba164
+      internalID: 5003443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_left_side_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832af81b9deb43b41bc0522707e4c75d
+      internalID: -1183501700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_left_side_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c22a4619d799e145a5670150da4b1f1
+      internalID: 1897142903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_left_side_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccfa5cb672fc744ab0ad7b94712483e
+      internalID: -969129978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_left_side_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1142af81c8d8a49449733d40a090fbc2
+      internalID: -802248321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_left_side_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ed703fa2e35374c8d901da71d70d02
+      internalID: 475961471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_left_side_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ea0652b5bfff34a9344268c50d40c4
+      internalID: 386105381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_left_side_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb92cc042c642eb4789c16ece66f6b9f
+      internalID: -773995364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_left_side_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab299112c650544e8b10669ba785a06
+      internalID: 1032013606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_left_side_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8084a79df177482499e033db88c17f74
+      internalID: 269902946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_left_side_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210cc4d009b8a1142b484b5f90449abe
+      internalID: -933642359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_left_side_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66121975c0e9c48ac15dac86fe119c
+      internalID: 1821532910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_left_side_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c09cc9a6428f647b73935a95d6b2f5
+      internalID: -942373479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_left_side_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a1c4aebde2aa47a1a8207e184373f
+      internalID: 1703659687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_left_side_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4523020d77c5f314682b28e18cc29833
+      internalID: 247874837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_left_side_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c1d02aa8b82a244aef5b59f81130b0
+      internalID: -350620709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e2dfd3fe81b8a4b982a802c960e74f
+      internalID: -1176240167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe75b2f75351f34db9a23fcc67678dd
+      internalID: 667590179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ab1db4f9da48246a6fc7eda5c71d5f
+      internalID: -194316033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f00b12710883c4baf7c3e8b2576732
+      internalID: -1771863437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_back_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9476397884e9f914b849ec0d8b8d98b9
+      internalID: 1075055250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_back_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ffe36da908fe640acfcd748a2103ac
+      internalID: 1631831721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_back_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5020a01b1c6dc344e9b7e9b0762e0c6c
+      internalID: -1382004895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_back_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04931ab819df57141a620a6cbed47cb0
+      internalID: -963668121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_back_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6073f5aad6ce74091055420551d46e
+      internalID: 1433437377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_back_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b5f19067497c4b8e288218f219498
+      internalID: 196477739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_back_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20e7f0df0708e1479bc4932c37d7c04
+      internalID: 1203211385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_back_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e42a6a9a2b179d4288d39dcab62b593
+      internalID: 1563001589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df00088cc94d7e2438c231ead9a70783
+      internalID: 1262205575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07533f4adbe64a449be897b6c9a57564
+      internalID: -395658292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_back_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a020ecdad83329f4782b0b1823bfd6e2
+      internalID: 631387590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_back_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e988b534951248a9e466d1b9d4583
+      internalID: -115317479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_right_side_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263aa9e1af2762542882498c4883228c
+      internalID: -1184172770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_right_side_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04d192f2f179c846929a3d52eb02ee4
+      internalID: -1339736863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_right_side_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4969594c59261d040ac783e5edf1e194
+      internalID: -478521209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_right_side_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3b46e2cddbda84890148a5f264a9c4
+      internalID: -1539955160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_right_side_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290f9db592fc25346b0911e8b225e177
+      internalID: -577159242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_right_side_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e365cab281f9e4fa200e8ee5ffe8e1
+      internalID: 148317937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_right_side_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2743c068249fe5642aba5aa596c84169
+      internalID: -561320277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_walk_right_side_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f48845764724d4e89f8d6bfe16817c
+      internalID: -1867034908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_right_side_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f12ba51422f9b469e81b2c00452283
+      internalID: -512713490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_right_side_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68809d4c224d9d40983f36fd4c97788
+      internalID: 504227910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_right_side_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630e637ec0c710a44a2c9b5369230c78
+      internalID: -546149312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_right_side_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964365b9e6bfe94b931cd62ef027b23
+      internalID: -1503217814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_right_side_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310f983cd460b914e95028bef588f417
+      internalID: -522749917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idle_right_side_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b4abe9bd7ce441a27b9fe87158a7f
+      internalID: -269652267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_run_right_side_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8184fcfe31e5534a8bc9f4bc991e614
+      internalID: -804575252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      red_1_12: 2143182290
+      red_1_163: -2125394218
+      red_1_32: 470958455
+      red_1_216: 468774259
+      red_1_156: -1703271770
+      red_walk_left_side_3: -773995364
+      red_idle_forward_1: 1293596604
+      red_1_248: -573101867
+      red_1_132: 1085489809
+      red_1_10: -2114634079
+      red_1_81: 1363022450
+      red_1_73: 1909955031
+      red_1_119: -363651283
+      red_1_45: -1228892027
+      red_1_134: -1647292231
+      red_1_285: -1632743243
+      red_1_246: -1102489178
+      red_1_120: -1641086626
+      red_1_205: 1919257893
+      red_1_279: 327342347
+      red_1_238: -1037040889
+      red_1_19: -587322638
+      red_1_44: 894208174
+      red_1_34: 1859965000
+      red_1_60: -563461146
+      red_1_207: -612590988
+      red_1_57: -756370748
+      red_1_148: 1890560689
+      red_1_214: 1051698929
+      red_1_304: 1800856355
+      red_1_312: 1328132211
+      red_1_35: 1458923652
+      red_1_47: 694145657
+      red_1_71: -101694526
+      red_1_16: 1476185692
+      red_1_131: 695605265
+      red_idle_back_6: -395658292
+      red_1_85: 1745551817
+      red_1_221: 1955180448
+      red_1_102: -1382526857
+      red_run_forward_2: 487641319
+      red_1_46: 1751185107
+      red_1_288: 1805558080
+      red_1_251: -2048068904
+      red_1_215: -1159317809
+      red_walk_back_3: -1382004895
+      red_1_144: -1703726431
+      red_1_301: 170677536
+      red_idle_left_side_2: 1897142903
+      red_idle_forward_3: 1708310189
+      red_1_20: -422525762
+      red_1_74: 1734247994
+      red_1_83: -1569018844
+      red_1_294: -24034358
+      red_idle_forward_2: -1423646262
+      red_idle_forward_6: -1278498334
+      red_run_forward_4: -1262043089
+      red_1_152: -1552543989
+      red_1_3: -517322403
+      red_1_292: -1230106076
+      red_walk_right_side_2: 148317937
+      red_1_176: -153132465
+      red_1_96: 1331988572
+      red_1_306: -447273479
+      red_1_69: -1946635487
+      red_1_228: -1757998799
+      red_1_291: -541258314
+      red_1_149: 1992675273
+      red_1_88: -110011373
+      red_1_153: -905455755
+      red_1_84: -1077379299
+      red_1_310: -759717856
+      red_idle_left_side_4: -802248321
+      red_1_161: -1137191726
+      red_idle_forward_4: -1151267878
+      red_run_back_2: 196477739
+      red_1_1: 737499547
+      red_1_164: 1229370611
+      red_run_left_side_5: -350620709
+      red_1_252: -82795662
+      red_1_196: 132150385
+      red_1_167: 1574201519
+      red_1_7: 554675398
+      red_1_105: 998506368
+      red_1_231: -1936934872
+      red_1_129: 1176235187
+      red_1_135: -1013050826
+      red_1_124: -2050130519
+      red_1_2: -226499710
+      red_1_4: 1136550503
+      red_1_146: -103978839
+      red_1_22: 2052886353
+      red_1_154: -950977724
+      red_1_86: -772876952
+      red_idle_back_4: -1771863437
+      red_1_166: -1198087785
+      red_run_right_side_1: -512713490
+      red_1_30: 1064002317
+      red_1_136: 276414544
+      red_1_82: -2075103046
+      red_1_31: 1319679812
+      red_1_302: -1612044614
+      red_1_229: 875143600
+      red_1_289: 1337860967
+      red_1_227: 1518815677
+      red_1_5: -121239052
+      red_1_55: 2068992000
+      red_1_210: 1056333833
+      red_1_280: -13697638
+      red_1_53: 39027939
+      red_idle_back_7: 631387590
+      red_1_75: 807704703
+      red_1_94: -1989623038
+      red_run_right_side_4: -1503217814
+      red_1_29: -694467377
+      red_1_162: 239465406
+      red_1_192: -2005037814
+      red_1_103: -15010238
+      red_1_204: 1329728846
+      red_1_272: 810010844
+      red_1_58: -1205450317
+      red_1_91: -1203876209
+      red_1_104: 1406309003
+      red_1_299: -1808941443
+      red_1_262: -1724185511
+      red_1_80: -1468534512
+      red_1_150: -1938740263
+      red_1_308: 413877907
+      red_1_155: -1513805382
+      red_1_230: -1610304597
+      red_run_right_side_2: 504227910
+      red_1_159: 51147746
+      red_idle_left_side_5: 1703659687
+      red_1_33: 628605514
+      red_1_222: 758103422
+      red_1_72: -183963101
+      red_1_13: -1250597484
+      red_1_297: -1318179406
+      red_1_123: -1804845309
+      red_1_106: -1574034278
+      red_1_160: 390965844
+      red_1_224: -126539099
+      red_1_78: -931854520
+      red_walk_back_4: -963668121
+      red_1_147: -1951963257
+      red_1_275: 1085205156
+      red_1_70: -297640038
+      red_1_218: 1184702969
+      red_1_125: -1974320303
+      red_run_forward_3: -1215918614
+      red_1_138: 551538231
+      red_1_180: -943584070
+      red_1_220: 962017543
+      red_1_151: -1159456758
+      red_1_175: 1992532507
+      red_1_278: 1852295939
+      red_1_179: 807259288
+      red_idle_right_side_4: -1539955160
+      red_1_17: 1640847103
+      red_1_21: 2022264998
+      red_1_65: 1524812908
+      red_1_212: 853392134
+      red_1_89: -1015407406
+      red_1_217: 2130630392
+      red_walk_right_side_1: -577159242
+      red_1_51: 132129952
+      red_1_140: -1951589672
+      red_1_79: 669977364
+      red_1_117: 396554115
+      red_1_130: -1145029417
+      red_1_287: -299114439
+      red_1_237: 317840332
+      red_1_313: -1229640648
+      red_run_back_3: 1203211385
+      red_1_0: 1846535049
+      red_1_63: -637422018
+      red_run_left_side_3: 1821532910
+      red_idle_right_side_6: -269652267
+      red_run_back_4: 1563001589
+      red_1_203: 377407501
+      red_1_174: 734766439
+      red_1_268: -1195257354
+      red_1_233: 1282573224
+      red_1_264: -527840735
+      red_walk_left_side_2: 386105381
+      red_run_back_1: 1433437377
+      red_1_235: 65357566
+      red_idle_left_side_3: -969129978
+      red_1_66: -1187843334
+      red_walk_right_side_3: -561320277
+      red_1_52: -1042779057
+      red_1_11: 100098613
+      red_1_177: -1999274419
+      red_1_142: 1625511581
+      red_1_236: 1634345383
+      red_1_253: -1241721535
+      red_1_269: 1582164505
+      red_1_290: -1417702076
+      red_idle_back_1: -1176240167
+      red_1_68: -1008426888
+      red_1_178: -1359389989
+      red_1_197: 1318703390
+      red_run_left_side_2: -933642359
+      red_run_back_5: -115317479
+      red_1_240: 1920649384
+      red_run_left_side_4: -942373479
+      red_1_133: -1258186639
+      red_1_247: -2118248778
+      red_1_307: -756727439
+      red_1_241: -864225127
+      red_idle_left_side_1: -1183501700
+      red_1_209: -2012011119
+      red_1_139: 1768832862
+      red_1_219: 2062677200
+      red_walk_left_side_1: 475961471
+      red_1_64: -382103891
+      red_run_left_side_1: 269902946
+      red_1_271: 932466591
+      red_1_158: 1762165644
+      red_1_87: -1965812489
+      red_1_202: 1866533889
+      red_1_263: -83039591
+      red_1_18: -1805990647
+      red_1_295: 1443184498
+      red_idle_right_side_1: -1184172770
+      red_idle_back_2: 667590179
+      red_1_206: -891902814
+      red_1_62: -94547009
+      red_1_226: -1177628784
+      red_1_59: -1345533074
+      red_1_198: -1984563695
+      red_1_8: -799836572
+      red_1_9: 476339551
+      red_1_265: -999987674
+      red_idle_back_3: -194316033
+      red_1_77: 50158484
+      red_1_213: 392217772
+      red_1_282: 1309465797
+      red_run_right_side_5: -804575252
+      red_1_28: -1905629990
+      red_1_223: -95094660
+      red_idle_right_side_2: -1339736863
+      red_1_298: -278595468
+      red_1_208: -1866428133
+      red_1_173: 1283929243
+      red_1_90: -1683985816
+      red_1_211: -1916755330
+      red_1_234: -1000121869
+      red_1_200: -1098279522
+      red_1_283: -659297165
+      red_1_239: 1546822909
+      red_1_145: -967914767
+      red_1_286: -795229921
+      red_1_249: 1451445796
+      red_1_168: -581859093
+      red_idle_forward_7: -189323928
+      red_1_67: 1178402901
+      red_1_284: 37157612
+      red_1_15: -1907569104
+      red_1_191: -527136047
+      red_walk_forward_4: 1870249419
+      red_1_143: 862188289
+      red_1_250: -187182983
+      red_1_101: 506295066
+      red_1_190: 1807291833
+      red_idle_right_side_3: -478521209
+      red_walk_forward_2: 1587987033
+      red_1_281: 2059198504
+      red_1_93: 1140213993
+      red_1_311: 1181112623
+      red_1_309: 2046723537
+      red_1_276: 175380392
+      red_1_14: -232129396
+      red_1_189: -215079498
+      red_1_199: -1099562524
+      red_1_300: 1021163293
+      red_1_127: 275932223
+      red_1_303: -1376417258
+      red_1_232: -1458268412
+      red_run_forward_5: 5003443
+      red_1_274: 304189683
+      red_walk_right_side_4: -1867034908
+      red_1_95: 2106933442
+      red_1_23: -2027595271
+      red_run_right_side_3: -546149312
+      red_idle_forward_5: 1578555928
+      red_walk_forward_3: 981457270
+      red_1_137: -654548690
+      red_walk_left_side_4: 1032013606
+      red_walk_forward_1: 1602737585
+      red_1_225: -96250162
+      red_1_6: -1349480548
+      red_1_107: -1008739493
+      red_1_54: 963240164
+      red_1_108: -1173793798
+      red_1_141: -1266060471
+      red_1_277: -1098498975
+      red_1_296: 860114205
+      red_1_126: 1566889959
+      red_walk_back_2: 1631831721
+      red_1_61: -1741526812
+      red_1_76: 751681909
+      red_1_305: -1357766620
+      red_1_157: 840571722
+      red_walk_back_1: 1075055250
+      red_1_118: 348887310
+      red_idle_right_side_5: -522749917
+      red_idle_left_side_6: 247874837
+      red_1_165: 1266286688
+      red_1_92: 1159160160
+      red_1_270: 760821823
+      red_run_forward_1: 576800756
+      red_1_293: 627030473
+      red_idle_back_5: 1262205575
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
