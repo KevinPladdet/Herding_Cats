@@ -9,17 +9,6 @@ public class ColorArea : MonoBehaviour
 
     private void OnCollisionEnter(Collision cat)
     {
-        // Check object name
-        if (cat.transform.name.Contains(colorOfArea))
-        {
-            DeleteCatObject(cat);
-            //DisableCatObject(cat);
-        }
-        else
-        {
-            TheWrongCat();
-        }
-
         // Check objects paret name 
         if (cat.transform.parent.gameObject.name.Contains(colorOfArea))
         {
@@ -42,7 +31,7 @@ public class ColorArea : MonoBehaviour
         Debug.Log("not the right cat");
     }
 
-    //If you want to delet object
+    //If you want to delete object
     private void DeleteCatObject(Collision cat)
     {
         Destroy(cat.gameObject);
