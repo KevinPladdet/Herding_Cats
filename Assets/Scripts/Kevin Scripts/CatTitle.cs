@@ -15,12 +15,10 @@ public class CatTitle : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         ch.SetDraggingState(this.transform.gameObject, true);
-        Debug.Log("Mouse Down");
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         ch.SetDraggingState(this.transform.gameObject, false);
-        Debug.Log("Mouse Up");
     }
 }
