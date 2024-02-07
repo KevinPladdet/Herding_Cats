@@ -38,6 +38,16 @@ public class Spawner : MonoBehaviour
             _ => "cat",
         };
 
+        string objectName = rnd switch
+        {
+            0 => "GreenCat",
+            1 => "YellowCat",
+            2 => "RedCat",
+            3 => "BlueCat",
+            _ => "cat",
+        };
+
         cat.GetComponent<Cat>().name = name;
+        cat.name = objectName;
     }
 }
