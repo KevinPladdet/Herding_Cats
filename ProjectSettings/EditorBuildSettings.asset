@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Assets/Ashley Assets/Scenes/Restart.unity
     guid: 44d6fbc1d7856a84ab2d94fc7ab6027b
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: b80ef70755aefaf49a42b298d4be4aba
+  - enabled: 1
+    path: Assets/Scenes/Main Level.unity
+    guid: 6d6cb214cb9fbfb47b3271ecd6eec4d4
   m_configObjects: {}
