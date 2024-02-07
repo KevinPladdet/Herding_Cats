@@ -3,16 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollorArea : MonoBehaviour
+public class ColorArea : MonoBehaviour
 {
-    [SerializeField] private String collorOfArea;
+    [SerializeField] private String colorOfArea;
 
     private void OnCollisionEnter(Collision cat)
     {
         // Check object name
-        if (cat.transform.name.Contains(collorOfArea))
+        if (cat.transform.name.Contains(colorOfArea))
         {
-            DeletCatObject(cat);
+            DeleteCatObject(cat);
             //DisableCatObject(cat);
         }
         else
@@ -20,18 +20,8 @@ public class CollorArea : MonoBehaviour
             TheWrongCat();
         }
 
-        // Check objects script variable name 
-        if (cat.transform.GetComponent<CatScript>().catCollarName == collorOfArea)
-        {
-            TheRightCat(cat);
-        }
-        else
-        {
-            TheWrongCat();
-        }
-
         // Check objects paret name 
-        if (cat.transform.parent.gameObject.name.Contains(collorOfArea))
+        if (cat.transform.parent.gameObject.name.Contains(colorOfArea))
         {
             TheRightCat(cat);
         }
@@ -43,8 +33,8 @@ public class CollorArea : MonoBehaviour
 
     private void TheRightCat(Collision cat)
     {
-        Debug.Log("this is " + collorOfArea + " cat");
-        DeletCatObject(cat);
+        Debug.Log("this is " + colorOfArea + " cat");
+        DeleteCatObject(cat);
     }
 
     private void TheWrongCat()
@@ -53,7 +43,7 @@ public class CollorArea : MonoBehaviour
     }
 
     //If you want to delet object
-    private void DeletCatObject(Collision cat)
+    private void DeleteCatObject(Collision cat)
     {
         Destroy(cat.gameObject);
     }
