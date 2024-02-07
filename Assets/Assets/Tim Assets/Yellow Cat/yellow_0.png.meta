@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,6 +69,30 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -78,7 +102,1309 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: yellow_idle_forward_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd7c074fdad12b409b5db618883e465
+      internalID: 1832378079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_forward_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350c38fdc9e408b40b151701ec017d1e
+      internalID: 1094342109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_forward_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ab261d9ab3e63489abd09738dd4769
+      internalID: -435865958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_forward_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5fc7beacc10246af2837dbd09909f
+      internalID: 393758888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_forward_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a629143664d1144acf7cfd1b4311e1
+      internalID: -1904615271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_forward_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5543ad451d5d414bade5c6a071d9e6f
+      internalID: 887883910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_forward_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ed9c2ef97443543a8b4e6d30ce6085
+      internalID: -1962046720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_forward_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68a2a8e15082bd4795f286b109bd461
+      internalID: 433462178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_forward_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3083e5aef261d448b26d47c7967c809
+      internalID: 1882613386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_forward_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88afe9d551ba66845aa897f5bc988853
+      internalID: 1419377159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_forward_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd8a58692528d498389600359bac45
+      internalID: 1766852633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_forward_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d96c539caa222d4db82dbc468e03511
+      internalID: -1481178099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_forward_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa64c28666483f438dbe9a575d202bc
+      internalID: 2136847957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_forward_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7406785f14097f48a18ed9f3f0d503b
+      internalID: 139791031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_forward_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02909898f5780f47abae26c5bab7b4d
+      internalID: 1066437540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_forward_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b91f14fe76e89944b41a46a629631c2
+      internalID: 1861904072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_left_side_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcece00a3ad293428847192c2ff1490
+      internalID: 1543619346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_left_side_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ed8f6d9ddf1ca46930ef975fae80d9
+      internalID: 1906656362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_left_side_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bca2d166ff32946a1c7cbdef2281d0
+      internalID: -850049874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_left_side_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0c75aa2a189d64d9faf9610750dbb2
+      internalID: -1198519068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_left_side_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca797872084dbc4dbabd943c5f780b2
+      internalID: -638395708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_left_side_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518342b94d12e25478084a70d6afb641
+      internalID: 1680180643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_left_side_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583947cae4d44b1439e107ce252401a9
+      internalID: 1340370370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_left_side_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd487c207173d314aaffbdad8f112c44
+      internalID: -1179947358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_left_side_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f01cc42b0011334daf0581140b633f6
+      internalID: -1523843410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_left_side_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc0289e76ca2a74d9513999b9c17bd3
+      internalID: 1167272593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_left_side_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3287f9f7f5aea4f9e63df3f971e6b5
+      internalID: -1670010586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_left_side_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6a095f5e379944ea73fa4b44980c90
+      internalID: 471957911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_left_side_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df96adc40fce3b445b41e911d56b5c15
+      internalID: 1667798397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_left_side_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28286926235fe424f8e2517cd284e7e5
+      internalID: 1322086134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_left_side_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f773a6745c8f0f4b9e563ced2551e1a
+      internalID: -552350482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f834d1965e8249a7212ee4c354201
+      internalID: 284852376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fd97a5ff4eb9045b13f442811edad8
+      internalID: 132737845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57e803dc5eb34141b1c2992ca315b7c
+      internalID: -285357326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d60a9995bf1a4dab3655633828348
+      internalID: -1331654245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_back_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d1c68298eff424994b33a3797a65a3
+      internalID: -1171558317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_back_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b01bbb31c4c9f14d8bff18b7e117a51
+      internalID: -728464707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_back_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570b04bcbfb07c742aeb3a81d704a3d4
+      internalID: 627417693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_back_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d16573393d8ca41880884f8e4c8c54
+      internalID: 976732122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_back_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6656912310cca3547b21e1ce514dd996
+      internalID: -1775599791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_back_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053f57bd57a880544907a0bbb1f712b9
+      internalID: 887853098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_back_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb00c1099e605fe418714a11b3304b55
+      internalID: -825682484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_back_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565a8cea95735914182d2b22eaad3459
+      internalID: 1020374123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48035801fd7c6c643981dbff82121d46
+      internalID: 417901924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b230e3fe1812554d97cce88f6d4a4aa
+      internalID: 1001815776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_back_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c0618f4eb12949bc78b21b0451f5f
+      internalID: 724569846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_back_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b4d8106074b5948b69036cb32ba9a9
+      internalID: 502814231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_right_side_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9b626439a085b4784595abee3232cd
+      internalID: -139568327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_right_side_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63349ada47c3c9408508f508521eee7
+      internalID: 1246915300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_right_side_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ecbc5817610be4d94f77151563ad9b
+      internalID: -1501555819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_right_side_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3413f14d3f52a8e4284f9d7f0163c0ce
+      internalID: 447623646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_right_side_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa2fc2d15f004b489aa491eb0c6cfb5
+      internalID: -842079836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_right_side_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696daa85ad46a844e84ea6bb9d68a87c
+      internalID: -1952835477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_right_side_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432ec213e3eb8d84a92108d5a66ba0eb
+      internalID: -1083532862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_walk_right_side_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f1018ef7afe34782563882e373d56
+      internalID: -51764987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_right_side_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146434bb6df381843a496b363237b117
+      internalID: -1437270673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_right_side_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78bdd92a07496499bb97a4706140b4
+      internalID: -588920909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_right_side_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c048ab3f08fc864e82062d3cd48e514
+      internalID: -582420720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_right_side_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d117fcc1211e5594baae86737aacb2b2
+      internalID: -674685101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_right_side_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035751b7ca9f5e54bb663a97efc917c2
+      internalID: -91225131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_idle_right_side_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11c9ef21b84d734a975586ef3cdb432
+      internalID: 179310773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_run_right_side_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f68aaea4bbe0b3468bf1b45573cc207
+      internalID: 1675973678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1415,321 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      yellow_0_57: -1843662585
+      yellow_0_23: 144111133
+      yellow_0_292: 247575564
+      yellow_0_125: -524722302
+      yellow_0_200: -414726358
+      yellow_0_279: 849329903
+      yellow_0_47: -910610910
+      yellow_0_79: 442759889
+      yellow_run_left_side_2: 1167272593
+      yellow_0_33: 1857417398
+      yellow_0_225: 914189351
+      yellow_0_165: -1924542021
+      yellow_run_back_3: -825682484
+      yellow_0_284: -487287920
+      yellow_0_126: 2065855531
+      yellow_run_right_side_5: 1675973678
+      yellow_0_310: 722090980
+      yellow_0_152: 1908732595
+      yellow_0_240: -121460871
+      yellow_0_101: -1222074321
+      yellow_0_45: 543540435
+      yellow_0_105: -1272519679
+      yellow_0_10: -503356990
+      yellow_0_34: 54368050
+      yellow_0_300: 1911366259
+      yellow_0_137: -2134035571
+      yellow_0_237: -1698871361
+      yellow_0_208: -1249709626
+      yellow_0_271: 1861546292
+      yellow_0_283: -1626504929
+      yellow_0_144: 865682107
+      yellow_0_76: -505692478
+      yellow_0_146: 1433981842
+      yellow_0_149: -816515978
+      yellow_0_22: -1206933198
+      yellow_0_223: 2138075581
+      yellow_0_31: 1864835122
+      yellow_0_239: -869677737
+      yellow_idle_right_side_1: -139568327
+      yellow_0_217: 784837307
+      yellow_0_196: -1179916651
+      yellow_0_179: 1847777584
+      yellow_idle_back_3: -285357326
+      yellow_0_86: 682616585
+      yellow_idle_forward_6: 139791031
+      yellow_idle_left_side_5: 1667798397
+      yellow_0_14: 479610693
+      yellow_0_150: 1830396801
+      yellow_0_65: 1473090228
+      yellow_idle_forward_7: 1066437540
+      yellow_0_4: 441631321
+      yellow_0_107: 886489979
+      yellow_0_199: 1303972538
+      yellow_0_161: -1754571922
+      yellow_0_215: 709470214
+      yellow_0_203: -1045784866
+      yellow_idle_left_side_3: -850049874
+      yellow_0_281: 313528608
+      yellow_0_131: -1892013678
+      yellow_0_153: -1562047989
+      yellow_0_265: -2094187340
+      yellow_0_212: -1230371174
+      yellow_0_60: 2131484569
+      yellow_0_13: 1569694168
+      yellow_walk_right_side_2: -1952835477
+      yellow_0_140: -734689013
+      yellow_0_123: -1600858850
+      yellow_0_69: -497891474
+      yellow_0_227: 1237750554
+      yellow_run_right_side_4: -674685101
+      yellow_0_173: -1668181021
+      yellow_0_286: -992122275
+      yellow_0_175: -728676201
+      yellow_walk_back_2: -728464707
+      yellow_0_178: 1709379285
+      yellow_0_210: -982393560
+      yellow_0_68: 1865849621
+      yellow_run_forward_4: -1481178099
+      yellow_0_59: -1389721887
+      yellow_0_277: -356311368
+      yellow_0_75: 1819448312
+      yellow_0_64: 503711724
+      yellow_0_270: 860251173
+      yellow_0_162: -1044553764
+      yellow_0_272: -1173908557
+      yellow_idle_forward_5: 2136847957
+      yellow_walk_forward_3: -1962046720
+      yellow_run_back_2: 887853098
+      yellow_0_6: -1074502378
+      yellow_0_73: -2021925951
+      yellow_0_129: 1910595438
+      yellow_0_213: 1849803169
+      yellow_0_139: -73878073
+      yellow_0_106: 1767379175
+      yellow_walk_left_side_3: 1340370370
+      yellow_0_221: -87918596
+      yellow_0_71: 102174433
+      yellow_walk_back_1: -1171558317
+      yellow_0_303: -917676837
+      yellow_run_right_side_3: -582420720
+      yellow_0_276: -1145989377
+      yellow_0_231: -451140226
+      yellow_0_241: 371539270
+      yellow_0_274: -1640632222
+      yellow_0_285: 1955969298
+      yellow_0_249: -2047965673
+      yellow_0_118: 2052995059
+      yellow_0_218: 1776245116
+      yellow_0_124: 476512156
+      yellow_0_148: -1774558615
+      yellow_0_189: -1090026590
+      yellow_0_132: 536771125
+      yellow_0_214: -1954563364
+      yellow_0_248: -63722090
+      yellow_0_307: -1069103350
+      yellow_0_251: -1535065488
+      yellow_walk_right_side_4: -51764987
+      yellow_0_174: -1466483115
+      yellow_0_299: -542567291
+      yellow_0_104: 1387646468
+      yellow_0_176: -1348122131
+      yellow_0_46: 689566872
+      yellow_0_44: -1685062620
+      yellow_0_158: -266351969
+      yellow_0_197: -1443784654
+      yellow_0_90: 70352539
+      yellow_0_252: 1409764857
+      yellow_idle_left_side_6: 1322086134
+      yellow_0_93: -1604352714
+      yellow_0_20: -242003153
+      yellow_0_1: -650655619
+      yellow_0_70: -1492821700
+      yellow_0_280: -788740941
+      yellow_0_246: -256991945
+      yellow_0_29: 1690606602
+      yellow_0_72: 413569425
+      yellow_0_234: -1627416159
+      yellow_run_forward_1: 1882613386
+      yellow_0_268: -1755928149
+      yellow_0_209: -1533784292
+      yellow_0_54: -234461312
+      yellow_0_269: -1021581793
+      yellow_0_103: -948489692
+      yellow_walk_forward_4: 433462178
+      yellow_0_28: 310327419
+      yellow_0_94: -162987571
+      yellow_0_312: -2099021636
+      yellow_0_130: -1792882449
+      yellow_0_127: 495401480
+      yellow_0_163: -498313883
+      yellow_0_143: 955184266
+      yellow_walk_back_4: 976732122
+      yellow_idle_forward_2: 1094342109
+      yellow_0_291: -65368102
+      yellow_0_226: -871157584
+      yellow_walk_back_3: 627417693
+      yellow_0_211: -795375076
+      yellow_0_301: 873799444
+      yellow_0_263: -267717063
+      yellow_0_293: 2103605690
+      yellow_run_right_side_2: -588920909
+      yellow_0_167: -1508712086
+      yellow_0_35: -1722655145
+      yellow_run_left_side_3: -1670010586
+      yellow_0_155: -1895997985
+      yellow_0_154: -1197149446
+      yellow_0_8: 1327572721
+      yellow_0_247: -1067408451
+      yellow_0_15: -32151058
+      yellow_idle_left_side_1: 1543619346
+      yellow_0_58: -1942956328
+      yellow_0_136: 1485298381
+      yellow_0_298: 1446243052
+      yellow_0_120: -1748841258
+      yellow_0_21: 606970999
+      yellow_0_53: 1709612509
+      yellow_0_147: 386075109
+      yellow_0_138: -444120905
+      yellow_0_156: 1565854430
+      yellow_0_142: -813097479
+      yellow_0_205: -1432219282
+      yellow_walk_left_side_4: -1179947358
+      yellow_0_67: -1535692415
+      yellow_idle_back_4: -1331654245
+      yellow_0_160: 710775265
+      yellow_0_278: 1746709850
+      yellow_0_230: -480116906
+      yellow_walk_left_side_1: -638395708
+      yellow_idle_right_side_2: 1246915300
+      yellow_0_264: 1819912304
+      yellow_0_83: -510712591
+      yellow_0_74: 1188260768
+      yellow_0_219: -1806287213
+      yellow_0_157: -173727513
+      yellow_0_302: -1697390918
+      yellow_0_232: -918384565
+      yellow_0_135: -336404831
+      yellow_0_89: -765584617
+      yellow_0_166: 992484130
+      yellow_0_282: 847012407
+      yellow_0_0: -477468423
+      yellow_0_102: -1333435868
+      yellow_run_forward_2: 1419377159
+      yellow_idle_forward_4: 393758888
+      yellow_0_141: 381718502
+      yellow_run_forward_5: 1861904072
+      yellow_0_290: 335763938
+      yellow_0_191: -1262836643
+      yellow_0_253: -1288633825
+      yellow_0_294: -1602176863
+      yellow_idle_back_1: 284852376
+      yellow_idle_forward_3: -435865958
+      yellow_0_84: 533250000
+      yellow_0_133: 1300418242
+      yellow_0_32: -1313523386
+      yellow_0_207: 1796076626
+      yellow_0_224: -1496189842
+      yellow_walk_left_side_2: 1680180643
+      yellow_idle_right_side_4: 447623646
+      yellow_idle_back_6: 1001815776
+      yellow_0_164: 1448852932
+      yellow_walk_forward_2: 887883910
+      yellow_0_275: 1080375717
+      yellow_0_52: -1405184833
+      yellow_0_250: 742404466
+      yellow_0_55: 1350738675
+      yellow_idle_back_7: 724569846
+      yellow_0_296: -701497183
+      yellow_0_159: -521683404
+      yellow_0_81: 868668844
+      yellow_0_80: 1716213841
+      yellow_0_168: 762545735
+      yellow_0_180: -956862926
+      yellow_0_192: 177667248
+      yellow_0_18: -1005579567
+      yellow_0_297: -729965630
+      yellow_run_left_side_5: -552350482
+      yellow_0_62: 1254636875
+      yellow_0_66: -1052216628
+      yellow_0_16: -509431766
+      yellow_0_108: 1828352019
+      yellow_0_289: -25853470
+      yellow_0_190: -640322973
+      yellow_0_304: 1045552050
+      yellow_idle_right_side_6: 179310773
+      yellow_0_77: 1085478364
+      yellow_0_87: 82193093
+      yellow_walk_right_side_1: -842079836
+      yellow_0_19: -368952533
+      yellow_0_288: 245840515
+      yellow_0_88: -2020344687
+      yellow_0_85: 1390313745
+      yellow_0_198: -88188146
+      yellow_0_17: 321832788
+      yellow_0_228: 358346138
+      yellow_0_96: -888535261
+      yellow_0_204: 1303989630
+      yellow_0_308: -1862145146
+      yellow_0_91: 1111394933
+      yellow_idle_left_side_4: -1198519068
+      yellow_run_left_side_4: 471957911
+      yellow_idle_left_side_2: 1906656362
+      yellow_walk_right_side_3: -1083532862
+      yellow_0_12: 499921652
+      yellow_0_7: 112553226
+      yellow_0_311: -1528087556
+      yellow_0_11: -680006900
+      yellow_idle_back_5: 417901924
+      yellow_0_313: -1296373153
+      yellow_walk_forward_1: -1904615271
+      yellow_0_117: 2027325891
+      yellow_0_222: -798679590
+      yellow_0_134: -1967528378
+      yellow_0_177: -466869601
+      yellow_0_305: 1452983955
+      yellow_0_309: -1847347174
+      yellow_0_119: 516757263
+      yellow_run_forward_3: 1766852633
+      yellow_run_back_5: 502814231
+      yellow_0_3: -1199383296
+      yellow_run_back_4: 1020374123
+      yellow_0_30: -1040871048
+      yellow_0_287: 952421329
+      yellow_idle_back_2: 132737845
+      yellow_run_right_side_1: -1437270673
+      yellow_run_back_1: -1775599791
+      yellow_0_82: 1376980373
+      yellow_0_95: -827829662
+      yellow_0_202: -900695008
+      yellow_0_306: 1247342504
+      yellow_0_5: 2131208322
+      yellow_0_238: 331104887
+      yellow_0_233: 1090464330
+      yellow_idle_right_side_3: -1501555819
+      yellow_0_145: 114983353
+      yellow_0_63: 1008228385
+      yellow_0_92: -577910304
+      yellow_0_229: -1201265098
+      yellow_idle_forward_1: 1832378079
+      yellow_0_2: -196397874
+      yellow_0_262: -18148248
+      yellow_0_236: 925110305
+      yellow_0_235: -1904982714
+      yellow_0_51: -921543817
+      yellow_0_151: -2051994051
+      yellow_0_220: 1383253877
+      yellow_0_206: 1568297735
+      yellow_0_9: -2056816563
+      yellow_0_61: 1475445680
+      yellow_0_216: 1209364888
+      yellow_0_295: 453559967
+      yellow_0_78: 1438653615
+      yellow_run_left_side_1: -1523843410
+      yellow_idle_right_side_5: -91225131
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
