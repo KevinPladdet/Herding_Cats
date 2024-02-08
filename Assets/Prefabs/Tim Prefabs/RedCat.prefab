@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2154812988661490078}
   m_Layer: 0
   m_Name: RedCat
-  m_TagString: Untagged
+  m_TagString: Cat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

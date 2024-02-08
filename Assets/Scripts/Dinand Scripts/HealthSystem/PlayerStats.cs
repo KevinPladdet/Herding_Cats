@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -24,8 +25,11 @@ public class PlayerStats : MonoBehaviour
     private float maxHealth;
 
     public GameObject SM;
+    public GameObject gameOverScreen;
+    public TextMeshProUGUI finalScore;
 
     public float Health { get { return health; } }
+
     public float MaxHealth { get { return maxHealth; } }
 
     public void Heal(float health)
@@ -41,8 +45,10 @@ public class PlayerStats : MonoBehaviour
 
         if(health == 0)
         {
+            Time.timeScale = 0f;
             SM.GetComponent<ScoreScript>().SaveHighscore();
-            //enable game over screen
+            gameOverScreen.SetActive(true);
+            finalScore.text = "Score: " + SM.GetComponent<ScoreScript>().currentScore.ToString();
         }
     }
 
