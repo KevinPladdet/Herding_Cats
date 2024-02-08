@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a49920a9c3461e43bcb4266fbad5272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenRounds: 2
+  timeBetweenRounds: 1
   greenCat: {fileID: 4564501791920488865, guid: ae1b34b434c256c4cbd29e82b418c66a, type: 3}
   yellowCat: {fileID: 2131304136913847811, guid: 9c514a16292e3a84e9d05813d62096e9, type: 3}
   blueCat: {fileID: 1905233439686337144, guid: 42a36801c7da0f746bc49b491c1def08, type: 3}

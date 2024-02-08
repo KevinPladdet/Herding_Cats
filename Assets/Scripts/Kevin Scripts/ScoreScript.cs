@@ -56,9 +56,9 @@ public class ScoreScript : MonoBehaviour
 
         if (stopUpdating == true)
         {
-            if (currentScore == PlayerPrefs.GetInt("ScoreTwo"))
+            if (currentScore == PlayerPrefs.GetInt("ScoreOne"))
             {
-                PlayerPrefs.SetInt("ScoreThree", currentScore);
+                PlayerPrefs.SetInt("ScoreTwo", currentScore);
                 stopUpdating = false;
             }
             if (currentScore == PlayerPrefs.GetInt("ScoreTwo"))
