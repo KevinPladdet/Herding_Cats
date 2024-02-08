@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -13,6 +14,8 @@ public class Spawner : MonoBehaviour
     public int currentAmount = 0;
     bool startDone = false;
 
+    float speed = 1f;
+
     void Start()
     {
         StartCoroutine(SpawnEnemies(timeBetweenRounds, maxCats));
@@ -24,6 +27,7 @@ public class Spawner : MonoBehaviour
         {
             int newAmount = maxCats-currentAmount;
             StartCoroutine(SpawnEnemies(timeBetweenRounds, newAmount));
+            StartCoroutine(AddSpeed());
         }
     }
 
@@ -58,10 +62,21 @@ public class Spawner : MonoBehaviour
             };
 
             cat.transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotation);
+            cat.GetComponent<CatMovement>().speed = speed;
+
             currentAmount++;
             yield return new WaitForSeconds(timer);
         }
         startDone = true;
+    }
+
+    IEnumerator AddSpeed()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            speed = speed * 1.2f;
+            yield return new WaitForSeconds(10);
+        }
     }
     /*
     void GetNewCat(GameObject cat)
