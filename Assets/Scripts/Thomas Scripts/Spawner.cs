@@ -54,10 +54,10 @@ public class Spawner : MonoBehaviour
             int rnd = (UnityEngine.Random.Range(0, 4));
             int rotation = rnd switch
             {
-                0 => 45,
-                1 => 135,
-                2 => 225,
-                3 => 315,
+                0 => -45,
+                1 => -135,
+                2 => -225,
+                3 => -315,
                 _ => 0,
             };
 
