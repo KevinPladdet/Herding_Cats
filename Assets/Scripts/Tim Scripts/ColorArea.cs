@@ -7,10 +7,10 @@ public class ColorArea : MonoBehaviour
 {
     [SerializeField] private String colorOfArea;
 
-    private void OnCollisionEnter2D(Collision2D cat)
+    private void OnTriggerEnter2D(Collider2D cat)
     {
         // Check objects paret name 
-        if (cat.transform.parent.gameObject.name.Contains(colorOfArea))
+        if (cat.name.Contains(colorOfArea))
         {
             TheRightCat(cat);
         }
@@ -20,7 +20,7 @@ public class ColorArea : MonoBehaviour
         }
     }
 
-    private void TheRightCat(Collision2D cat)
+    private void TheRightCat(Collider2D cat)
     {
         Debug.Log("this is " + colorOfArea + " cat");
         DeleteCatObject(cat);
@@ -32,13 +32,13 @@ public class ColorArea : MonoBehaviour
     }
 
     //If you want to delete object
-    private void DeleteCatObject(Collision2D cat)
+    private void DeleteCatObject(Collider2D cat)
     {
         Destroy(cat.gameObject);
     }
 
     //If you want to disable object
-    private void DisableCatObject(Collision2D cat)
+    private void DisableCatObject(Collider2D cat)
     {
         cat.gameObject.SetActive(false);
     }
