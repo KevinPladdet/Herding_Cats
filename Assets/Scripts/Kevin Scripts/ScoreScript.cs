@@ -9,7 +9,7 @@ public class ScoreScript : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public int currentScore;
 
-    bool stopUpdating = false;
+    bool stopUpdating = true;
 
     void Start()
     {
@@ -24,61 +24,47 @@ public class ScoreScript : MonoBehaviour
 
     public void SaveHighscore()
     {
-        if (currentScore > PlayerPrefs.GetInt("ScoreOne"))
-        {
-            PlayerPrefs.SetInt("ScoreOne", currentScore);
-        }
-
-        if (currentScore > PlayerPrefs.GetInt("ScoreTwo") && currentScore < PlayerPrefs.GetInt("ScoreOne"))
-        {
-            PlayerPrefs.SetInt("ScoreTwo", currentScore);
-        }
-
-        if (currentScore > PlayerPrefs.GetInt("ScoreThree") && currentScore < PlayerPrefs.GetInt("ScoreTwo"))
-        {
-            PlayerPrefs.SetInt("ScoreThree", currentScore);
-        }
-
-        if (currentScore > PlayerPrefs.GetInt("ScoreFour") && currentScore < PlayerPrefs.GetInt("ScoreThree"))
-        {
-            PlayerPrefs.SetInt("ScoreFour", currentScore);
-        }
-
-        if (currentScore > PlayerPrefs.GetInt("ScoreFive") && currentScore < PlayerPrefs.GetInt("ScoreFour"))
-        {
-            PlayerPrefs.SetInt("ScoreFive", currentScore);
-        }
-
-        if (currentScore == PlayerPrefs.GetInt("ScoreOne"))
-        {
-            PlayerPrefs.SetInt("ScoreTwo", currentScore);
-        }
-
         if (stopUpdating == true)
         {
-            if (currentScore == PlayerPrefs.GetInt("ScoreOne"))
+            if (currentScore > PlayerPrefs.GetInt("ScoreOne"))
             {
+                PlayerPrefs.SetInt("ScoreTwo", PlayerPrefs.GetInt("ScoreOne"));
+                PlayerPrefs.SetInt("ScoreThree", PlayerPrefs.GetInt("ScoreTwo"));
+                PlayerPrefs.SetInt("ScoreFour", PlayerPrefs.GetInt("ScoreThree"));
+                PlayerPrefs.SetInt("ScoreFive", PlayerPrefs.GetInt("ScoreFour"));
+                PlayerPrefs.SetInt("ScoreOne", currentScore);
+                stopUpdating = false;
+            }
+
+            if (currentScore > PlayerPrefs.GetInt("ScoreTwo") && currentScore < PlayerPrefs.GetInt("ScoreOne"))
+            {
+                PlayerPrefs.SetInt("ScoreThree", PlayerPrefs.GetInt("ScoreTwo"));
+                PlayerPrefs.SetInt("ScoreFour", PlayerPrefs.GetInt("ScoreThree"));
+                PlayerPrefs.SetInt("ScoreFive", PlayerPrefs.GetInt("ScoreFour"));
                 PlayerPrefs.SetInt("ScoreTwo", currentScore);
                 stopUpdating = false;
             }
-            if (currentScore == PlayerPrefs.GetInt("ScoreTwo"))
+
+            if (currentScore > PlayerPrefs.GetInt("ScoreThree") && currentScore < PlayerPrefs.GetInt("ScoreTwo"))
             {
+                PlayerPrefs.SetInt("ScoreFour", PlayerPrefs.GetInt("ScoreThree"));
+                PlayerPrefs.SetInt("ScoreFive", PlayerPrefs.GetInt("ScoreFour"));
                 PlayerPrefs.SetInt("ScoreThree", currentScore);
                 stopUpdating = false;
             }
-            if (currentScore == PlayerPrefs.GetInt("ScoreThree"))
+
+            if (currentScore > PlayerPrefs.GetInt("ScoreFour") && currentScore < PlayerPrefs.GetInt("ScoreThree"))
             {
+                PlayerPrefs.SetInt("ScoreFive", PlayerPrefs.GetInt("ScoreFour"));
                 PlayerPrefs.SetInt("ScoreFour", currentScore);
                 stopUpdating = false;
             }
-            if (currentScore == PlayerPrefs.GetInt("ScoreFour"))
+
+            if (currentScore > PlayerPrefs.GetInt("ScoreFive") && currentScore < PlayerPrefs.GetInt("ScoreFour"))
             {
                 PlayerPrefs.SetInt("ScoreFive", currentScore);
                 stopUpdating = false;
             }
         }
-
-        stopUpdating = true;
-
     }
 }
