@@ -10,15 +10,27 @@ public class Spawner : MonoBehaviour
     public GameObject blueCat;
     public GameObject redCat;
     public int maxCats = 10;
+    public int currentAmount = 0;
+    bool startDone = false;
 
     void Start()
     {
-        StartCoroutine(SpawnEnemies(timeBetweenRounds));
+        StartCoroutine(SpawnEnemies(timeBetweenRounds, maxCats));
     }
 
-    IEnumerator SpawnEnemies(float timer)
+    private void Update()
     {
-        for (int i = 0; i < maxCats; i++)
+        if (currentAmount < maxCats && startDone)
+        {
+            int newAmount = maxCats-currentAmount;
+            StartCoroutine(SpawnEnemies(timeBetweenRounds, newAmount));
+        }
+    }
+
+    IEnumerator SpawnEnemies(float timer, int amount)
+    {
+        startDone = false;
+        for (int i = 0; i < amount; i++)
         {
             int rndCat = (UnityEngine.Random.Range(0, 3));
             GameObject catObject = null;
@@ -46,8 +58,10 @@ public class Spawner : MonoBehaviour
             };
 
             cat.transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotation);
+            currentAmount++;
             yield return new WaitForSeconds(timer);
         }
+        startDone = true;
     }
     /*
     void GetNewCat(GameObject cat)
