@@ -9,6 +9,8 @@ public class ScoreScript : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public int currentScore;
 
+    bool stopUpdating = false;
+
     void Start()
     {
         scoreText = GameObject.Find("TotalScore").GetComponent<TextMeshProUGUI>();
@@ -46,5 +48,37 @@ public class ScoreScript : MonoBehaviour
         {
             PlayerPrefs.SetInt("ScoreFive", currentScore);
         }
+
+        if (currentScore == PlayerPrefs.GetInt("ScoreOne"))
+        {
+            PlayerPrefs.SetInt("ScoreTwo", currentScore);
+        }
+
+        if (stopUpdating == true)
+        {
+            if (currentScore == PlayerPrefs.GetInt("ScoreTwo"))
+            {
+                PlayerPrefs.SetInt("ScoreThree", currentScore);
+                stopUpdating = false;
+            }
+            if (currentScore == PlayerPrefs.GetInt("ScoreTwo"))
+            {
+                PlayerPrefs.SetInt("ScoreThree", currentScore);
+                stopUpdating = false;
+            }
+            if (currentScore == PlayerPrefs.GetInt("ScoreThree"))
+            {
+                PlayerPrefs.SetInt("ScoreFour", currentScore);
+                stopUpdating = false;
+            }
+            if (currentScore == PlayerPrefs.GetInt("ScoreFour"))
+            {
+                PlayerPrefs.SetInt("ScoreFive", currentScore);
+                stopUpdating = false;
+            }
+        }
+
+        stopUpdating = true;
+
     }
 }

@@ -51,15 +51,8 @@ public class Spawner : MonoBehaviour
             }
             GameObject cat = Instantiate(catObject, transform.position, Quaternion.identity);
 
-            int rnd = (UnityEngine.Random.Range(0, 4));
-            int rotation = rnd switch
-            {
-                0 => -45,
-                1 => -135,
-                2 => -225,
-                3 => -315,
-                _ => 0,
-            };
+            int rnd = (UnityEngine.Random.Range(0, 361));
+            int rotation = rnd;
 
             cat.transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotation);
             cat.GetComponent<CatMovement>().speed = speed;
