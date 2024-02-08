@@ -7,6 +7,10 @@ public class ColorArea : MonoBehaviour
 {
     [SerializeField] private String colorOfArea;
 
+    public GameObject SM;
+    public GameObject PS;
+    public GameObject Spawner;
+
     private void OnTriggerEnter2D(Collider2D cat)
     {
         // Check objects paret name 
@@ -16,24 +20,26 @@ public class ColorArea : MonoBehaviour
         }
         else
         {
-            TheWrongCat();
+            TheWrongCat(cat);
         }
     }
 
     private void TheRightCat(Collider2D cat)
     {
-        Debug.Log("this is " + colorOfArea + " cat");
+        SM.GetComponent<ScoreScript>().AddScore();
         DeleteCatObject(cat);
     }
 
-    private void TheWrongCat()
+    private void TheWrongCat(Collider2D cat)
     {
-        Debug.Log("not the right cat");
+        PS.GetComponent<PlayerStats>().TakeDamage(1);
+        DeleteCatObject(cat);
     }
 
     //If you want to delete object
     private void DeleteCatObject(Collider2D cat)
     {
+        Spawner.GetComponent<Spawner>().currentAmount -= 1;
         Destroy(cat.gameObject);
     }
 

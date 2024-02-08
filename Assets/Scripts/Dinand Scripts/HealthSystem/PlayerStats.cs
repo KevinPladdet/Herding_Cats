@@ -23,6 +23,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField]
     private float maxHealth;
 
+    public GameObject SM;
+
     public float Health { get { return health; } }
     public float MaxHealth { get { return maxHealth; } }
 
@@ -36,6 +38,12 @@ public class PlayerStats : MonoBehaviour
     {
         health -= dmg;
         ClampHealth();
+
+        if(health == 0)
+        {
+            SM.GetComponent<ScoreScript>().SaveHighscore();
+            //enable game over screen
+        }
     }
 
     void ClampHealth()

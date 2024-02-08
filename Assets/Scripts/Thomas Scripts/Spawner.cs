@@ -36,7 +36,7 @@ public class Spawner : MonoBehaviour
         startDone = false;
         for (int i = 0; i < amount; i++)
         {
-            int rndCat = (UnityEngine.Random.Range(0, 3));
+            int rndCat = (UnityEngine.Random.Range(0, 4));
             GameObject catObject = null;
             switch (rndCat)
             {
@@ -51,7 +51,7 @@ public class Spawner : MonoBehaviour
             }
             GameObject cat = Instantiate(catObject, transform.position, Quaternion.identity);
 
-            int rnd = (UnityEngine.Random.Range(0, 3));
+            int rnd = (UnityEngine.Random.Range(0, 4));
             int rotation = rnd switch
             {
                 0 => 45,

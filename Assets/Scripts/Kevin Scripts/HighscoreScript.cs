@@ -14,10 +14,10 @@ public class HighscoreScript : MonoBehaviour
 
     public void setHighscores()
     {
-        scoreOneText.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("ScoreOne").ToString();
-        scoreTwoText.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("ScoreTwo").ToString();
-        scoreThreeText.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("ScoreThree").ToString();
-        scoreFourText.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("ScoreFour").ToString();
-        scoreFiveText.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("ScoreFive").ToString();
+        scoreOneText.GetComponent<TextMeshProUGUI>().text = "#1: " + PlayerPrefs.GetInt("ScoreOne").ToString();
+        scoreTwoText.GetComponent<TextMeshProUGUI>().text = "#2: " + PlayerPrefs.GetInt("ScoreTwo").ToString();
+        scoreThreeText.GetComponent<TextMeshProUGUI>().text = "#3: " + PlayerPrefs.GetInt("ScoreThree").ToString();
+        scoreFourText.GetComponent<TextMeshProUGUI>().text = "#4: " + PlayerPrefs.GetInt("ScoreFour").ToString();
+        scoreFiveText.GetComponent<TextMeshProUGUI>().text = "#5: " + PlayerPrefs.GetInt("ScoreFive").ToString();
     }
 }

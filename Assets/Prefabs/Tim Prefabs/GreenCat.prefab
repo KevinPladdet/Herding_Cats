@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8914601033966556086}
   - component: {fileID: 8984634745889161806}
   - component: {fileID: 2494110509495623181}
+  - component: {fileID: 8975874907086706911}
+  - component: {fileID: -1736602581060480326}
   m_Layer: 0
   m_Name: GreenCat
   m_TagString: Untagged
@@ -80,7 +82,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &2494110509495623181
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -133,3 +135,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8975874907086706911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564501791920488865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747903618798d0440a598a0d3bf1abcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1736602581060480326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564501791920488865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a211d3ba5629aeb4ba83efc5a46adef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
